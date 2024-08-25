@@ -21,20 +21,16 @@ può essere boolean, true o false, come se fosse un interuttore della luce, quin
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* 
-let myName = "Kateryna"
-console.log(myName)
-*/
+let myName = "Kateryna";
+console.log(myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/*
-let num1 = 12
-let num2 = 20
-console.log(num1 + num2)
-*/
+let num1 = 12;
+let num2 = 20;
+console.log(num1 + num2);
 
 /*
 let num1 = 12
@@ -47,38 +43,27 @@ console.log(somma)
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/*
-let x
-x = 12
-console.log(x)
-*/
+let x = 12;
+console.log(x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/*
-myName = "Matviyeva"
-console.log(myName)
-*/
+myName = "Matviyeva";
+console.log(myName);
 
-/*
-const myColor = "black"
-myColor = "blu"
-console.log(myColor)
-*/
-
+const myColor = "black";
+myColor = "blu";
+console.log(myColor);
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/*
-let num3 = 4
-console.log(num3 - x)
-*/
-
+let num3 = 4;
+console.log(num3 - x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -86,16 +71,17 @@ console.log(num3 - x)
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/*
-let name1 = "john"
-let name2 = "John"
-console.log(name1 !== name2)
-console.log(name1 === name2)
-*/
+let name1 = "john";
+let name2 = "John";
+console.log(name1 !== name2);
+console.log(name1 === name2);
 
-/*
-let nameCompare = name1.toLowerCase === name2.toLowerCase
-console.log(nameCompare)
-console.log(name1.toLowerCase() === name2.toLowerCase())
-*/
+let nameCompare = name1.toLowerCase === name2.toLowerCase;
+console.log(nameCompare);
+console.log(name1.toLowerCase() === name2.toLowerCase());
 
+if (name1.toLowerCase === name2.toLowerCase) {
+  console.log("i due nomi sono uguali");
+} else {
+  console.log("i due nomi sono diversi");
+}
